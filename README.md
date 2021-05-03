@@ -8,7 +8,7 @@ restful api (node, express, postgres)
 
 -install the dependencies by "$npm install express pg cors"
 
--connect your postgress by "$psql -U postgress"
+-connect your postgress by "$psql -U postgres"
 
 -create the database and tables by "CREATE DATABASE employee_db;" and connect it by "\c employee_db"
 
