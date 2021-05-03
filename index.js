@@ -36,7 +36,7 @@ app.get("/employees", async (req, res) => {
    }
  });
 
-//get a todo
+//get information of an employee with id
 
  app.get("/employees/:id", async (req, res) => {
    try {
