@@ -20,10 +20,21 @@ by "CREATE TABLE employee_table(
   top_skill VARCHAR(100)
 );" 
 
+-to seed your db, use postman or insomnia to post new employee information 
+(example {"employee_name": "alex",
+           "top_skill": "python"})
+
 -check your table by "\dt" in your database
 
 -You can post, delete, get all employees, get an employee information by id and update it.
 
 
+-create a new react app run "$npx create-react-app client" in your terminal
 
-front-end...
+-copy the necessary component into your folder
+
+-run "$npm start"
+
+-you will render data from your database that you put with insomnia or postman
+
+
